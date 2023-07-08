@@ -1,0 +1,142 @@
+
+/* Впапке шрифтов есть еще один (Novelist), я хотела поставить его, но он почему-то не работает.((( почему? */
+
+
+ 
+/* Про шапку */
+header {
+   background-image    : url('/assets/images/header.jpg');
+   background-size     : cover;
+   background-repeat   : no-repeat;
+   height              : 200px;
+}
+
+.menu {
+   display             : flex;
+   justify-content     : space-evenly;
+}
+
+.Information, .Aboutus, .Directions {
+   font-weight         : 600;
+   width               : 105px;
+   height              : 25px;
+   margin-top          : 64px;
+   padding-left        : 25px;
+   color               : rgb(188, 224, 224);
+   } 
+
+a:hover {
+   color               : rgb(47, 1, 90);
+}
+
+
+
+
+/* Об основной зоне контента в целом */
+.content {
+   display             : flex;
+   flex-direction      : row;
+}
+
+
+
+
+/* Левая часть контента */
+.basis {
+   display             : flex;
+   flex-direction      : column;
+   flex                : 1 1 auto;
+   width               : 65%;
+   padding-top         : 200px;
+   padding-bottom      : 7px;
+   background-color    : rgb(236, 186, 204);
+}
+
+.cards {
+   display              : flex;
+   flex-wrap            : wrap;
+   align-items          : flex-end;
+   justify-content      : space-around;
+}
+
+.text {
+   flex                : 1 1 auto;
+   margin-left         : 45px;
+   margin-right        : 45px;
+   font-family         : 'Montserrat', sans-serif;
+} 
+
+.card, .card3 {
+   display             : flex;
+   flex-direction      : column;
+   align-items         : center;
+   color               : rgb(47, 1, 90);
+   font-weight         : bold;
+}
+
+h2 {
+   color               : black;
+   text-align          : center;
+   }
+
+
+
+
+/* Правая часть контента */
+.dop {
+   background-image    : url('/assets/images/22634-1000x830.jpg');
+   background-size     : cover;
+   background-repeat   : no-repeat;
+   width               : 35%;
+   height              : 900px;
+}
+
+h1 {
+   padding-top         : 650px;
+   padding-left        : 30px;
+   padding-right       : 30px;
+   color               : azure;
+   text-align          : center;
+   font-family         : 'Montserrat', sans-serif;
+}
+
+
+
+
+/* Про подвал */
+footer {
+   background-image    : url('/assets/images/header.jpg');
+   height              : 200px;
+   color               : azure;
+   padding-top         : 100px;
+}
+
+#footerBase {
+   display             : flex;
+   flex-direction      : row;
+   justify-content     : space-around;
+}
+
+.footer1, .footer2, .footer3, .footer4 {
+   display             : flex;
+   align-items         : center;
+   justify-content     : center;
+   width               : 200px;
+   height              : 100px;
+}
+
+.mail {
+   color               : rgb(188, 224, 224);
+}
+
+.footer1, .footer4 {
+   background-color    : rgb(188, 224, 224);
+}
+
+img[alt="cat"] {
+   width               : 90px;
+   height              : 90px;
+   justify-content     : center;
+   align-items         : center;
+}
+
